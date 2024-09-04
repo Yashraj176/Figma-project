@@ -1,0 +1,15 @@
+/* Custom single-line design scrollbar */
+.scrollbar-line::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .scrollbar-line::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Transparent thumb for single line */
+    border-right: 2px solid #7c8591; /* Single line on the right side */
+    border-radius: 8px; /* No rounding for a sharp line */
+  }
+  
+  .scrollbar-line::-webkit-scrollbar-track {
+    background-color: #a3a8ad; /* Track color */
+  }
+  
